@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "826197265921",
+    "project_id": "gamevault-51fee",
+    "storage_bucket": "gamevault-51fee.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:826197265921:android:8e145fad7284ece9a2ba00",
+        "android_client_info": {
+          "package_name": "com.example.gamevault"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBeoDHAQdhU0lpsK681mU1N2TU2VmljQPc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

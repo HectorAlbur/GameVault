@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">GameVault</string>
+    <string name="hello_blank_fragment">Bienvenido a GameVault</string>
+
+    <!-- Login -->
+    <string name="appName">GameVault</string>
+    <string name="appTagline">Explora tu universo de juegos</string>
+    <string name="mail">Correo electrónico</string>
+    <string name="emailHint">ejemplo@correo.com</string>
+    <string name="password">Contraseña</string>
+    <string name="confirmPassword">Confirmar contraseña</string>
+    <string name="signIn">Entrar</string>
+    <string name="register">¿Nuevo por aquí? Crea una cuenta</string>
+
+    <!-- Register -->
+    <string name="createAccountTitle">Únete a la comunidad</string>
+    <string name="registerSubtitle">Crea tu perfil y descubre miles de títulos</string>
+    <string name="registerButton">Crear Cuenta</string>
+    <string name="backToSignIn">¿Ya eres miembro? Inicia sesión</string>
+
+    <!-- Personal Info -->
+    <string name="personalInfoTitle">Tu Perfil</string>
+    <string name="personalInfoStep">Paso 2 de 2 · Casi terminamos</string>
+    <string name="personalInfoIntro">Personaliza tu experiencia gamer</string>
+    <string name="firstName">Nombre</string>
+    <string name="lastName">Apellidos</string>
+    <string name="username">Alias de jugador</string>
+    <string name="phone">Teléfono</string>
+    <string name="birthDate">Fecha de nacimiento</string>
+    <string name="datePickerHint">Selecciona tu fecha</string>
+    <string name="save">Comenzar Aventura</string>
+
+    <!-- Tabs -->
+    <string name="tab_home">Descubrir</string>
+    <string name="tab_wishlist">Deseados</string>
+    <string name="tab_account">Perfil</string>
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Nueva Paleta: Ocean/Teal Theme -->
+    <color name="primary">#00796B</color>          <!-- Teal principal -->
+    <color name="primaryPink">#00ACC1</color>      <!-- Cyan secundario -->
+    <color name="primaryYellow">#80CBC4</color>    <!-- Teal claro -->
+    <color name="primaryPinkLight">#B2DFDB</color> <!-- Teal muy claro -->
+
+    <!-- Fondo y texto -->
+    <color name="mainBackground">#F0F4F4</color>
+    <color name="textPrimary">#102A2D</color>
+    <color name="textSecondary">#455A64</color>
+    <color name="textTertiary">#78909C</color>
+    <color name="inputBackground">#FFFFFF</color>
+    <color name="strokeColor">#CFD8DC</color>
+    <color name="disabled">#B0BEC5</color>
+</resources>
