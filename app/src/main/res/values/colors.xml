@@ -17,4 +17,8 @@
     <color name="inputBackground">#FFFFFF</color>
     <color name="strokeColor">#CFD8DC</color>
     <color name="disabled">#B0BEC5</color>
+    <color name="accent">#FF9800</color>
+    <color name="primaryLight">#BB86FC</color>
+
+
 </resources>
