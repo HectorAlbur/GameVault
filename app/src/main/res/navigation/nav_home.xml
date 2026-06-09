@@ -5,13 +5,40 @@
     android:id="@+id/nav_home"
     app:startDestination="@id/gamesFragment">
 
-    <fragment android:id="@+id/gamesFragment"
+    <fragment
+        android:id="@+id/gamesFragment"
         android:name="com.example.gamevault.home.games.GamesFragment"
-        android:label="fragment_games" tools:layout="@layout/fragment_games"/>
-    <fragment android:id="@+id/wishlistFragment"
+        android:label="fragment_games"
+        tools:layout="@layout/fragment_games">
+        <action
+            android:id="@+id/action_gamesFragment_to_gameDetailFragment"
+            app:destination="@id/gameDetailFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/wishlistFragment"
         android:name="com.example.gamevault.home.wishlist.WishlistFragment"
-        android:label="fragment_wishlist" tools:layout="@layout/fragment_wishlist"/>
-    <fragment android:id="@+id/accountFragment"
+        android:label="fragment_wishlist"
+        tools:layout="@layout/fragment_wishlist">
+        <action
+            android:id="@+id/action_wishlistFragment_to_gameDetailFragment"
+            app:destination="@id/gameDetailFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/accountFragment"
         android:name="com.example.gamevault.home.account.AccountFragment"
-        android:label="fragment_account" tools:layout="@layout/fragment_account"/>
+        android:label="fragment_account"
+        tools:layout="@layout/fragment_account" />
+
+    <fragment
+        android:id="@+id/gameDetailFragment"
+        android:name="com.example.gamevault.home.games.GameDetailFragment"
+        android:label="fragment_game_detail"
+        tools:layout="@layout/fragment_game_detail">
+        <argument
+            android:name="gameId"
+            app:argType="integer" />
+    </fragment>
+
 </navigation>
